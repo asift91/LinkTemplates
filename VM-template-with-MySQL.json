@@ -289,69 +289,22 @@
         }
     },
 	{
-        "type": "Microsoft.Compute/virtualMachines/extensions",
+        "type": "Microsoft.Resources/deployments",
         "apiVersion": "2018-06-01",
-        "name": "[concat(variables('vmName'),'/', 'InstallMySQL')]",
+        "name": "linkedTemplate",
         "location": "[parameters('location')]",
         "dependsOn": [
             "[concat('Microsoft.Compute/virtualMachines/',variables('vmName'))]"
         ],
         "properties": {
-            "publisher": "Microsoft.Compute",
-            "type": "CustomScriptExtension",
-            "typeHandlerVersion": "1.7",
-            "autoUpgradeMinorVersion":true,
-            "settings": {
-                "fileUris": [
-                    "https://github.com/asift91/Azure-Templates/blob/master/Separate%20Scripts/MySQL.sh"
-                ],
-                "commandToExecute": "MySQL.sh"
-            }
-        }
-    },
-    {
-        "type": "Microsoft.Compute/virtualMachines/extensions",
-        "apiVersion": "2018-06-01",
-        "name": "[concat(variables('vmName'),'/', 'InstallLamp')]",
-        "location": "[parameters('location')]",
-        "dependsOn": [
-            "[resourceId('Microsoft.Compute/virtualMachines/extensions/',variables('vmName'),'InstallMySQL')]"
-        ],
-        "properties": {
-            "publisher": "Microsoft.Compute",
-            "type": "CustomScriptExtension",
-            "typeHandlerVersion": "1.7",
-            "autoUpgradeMinorVersion":true,
-            "settings": {
-                "fileUris": [
-                    "https://github.com/asift91/Azure-Templates/blob/master/Separate%20Scripts/installingLAMP.sh"
-                ],
-                "commandToExecute": "installingLAMP.sh"
-            }
-        }
-    },
-    {
-        "type": "Microsoft.Compute/virtualMachines/extensions",
-        "apiVersion": "2018-06-01",
-        "name": "[concat(variables('vmName'),'/', 'RestartApache')]",
-        "location": "[parameters('location')]",
-        "dependsOn": [
-            "[resourceId('Microsoft.Compute/virtualMachines/extensions/',variables('vmName'),'InstallMySQL')]",
-            "[resourceId('Microsoft.Compute/virtualMachines/extensions/',variables('vmName'),'InstallLamp')]"
-        ],
-        "properties": {
-            "publisher": "Microsoft.Compute",
-            "type": "CustomScriptExtension",
-            "typeHandlerVersion": "1.7",
-            "autoUpgradeMinorVersion":true,
-            "settings": {
-                "fileUris": [
-                    "https://github.com/asift91/Azure-Templates/blob/master/Separate%20Scripts/Apache-Restart.sh"
-                ],
-                "commandToExecute": "Apache-Restart.sh"
-            }
+            "mode": "Incremental",
+            "templateLink": {
+                "uri":"https://github.com/asift91/LinkTemplates/blob/master/MySQL.json",
+                "contentVersion":"1.0.0.0"
+                }
         }
     }
+    
     ],
 	
     "outputs": {
