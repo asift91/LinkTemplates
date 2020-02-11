@@ -1,0 +1,2 @@
+# LinkTemplates
+JSON Link Templates
