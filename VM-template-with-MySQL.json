@@ -292,7 +292,6 @@
         "type": "Microsoft.Resources/deployments",
         "apiVersion": "2018-06-01",
         "name": "linkedTemplate",
-        "location": "[parameters('location')]",
         "dependsOn": [
             "[concat('Microsoft.Compute/virtualMachines/',variables('vmName'))]"
         ],
