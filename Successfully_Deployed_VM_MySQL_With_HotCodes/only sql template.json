@@ -1,0 +1,29 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "resources": [{
+        "type": "Microsoft.DBforMySQL/servers",
+        "apiVersion": "2017-12-01",
+        "location": "East US 2",
+        "name": "italentarmserver",
+        "sku": {
+            "name": "GP_Gen5_2",
+            "tier": "GeneralPurpose",
+            "capacity":2,
+            "size": 51200,
+            "family": "Gen5"
+        },
+        "properties": {
+            "version": "5.7",
+            "administratorLogin": "italentdigital",
+            "administratorLoginPassword": "Q!w2e3r4",
+            "storageProfile": {
+                "storageMB": 51200,
+                "backupRetentionDays": "7",
+                "geoRedundantBackup": "Disabled"
+            },
+            "sslEnforcement": "Disabled"
+        }
+    }
+    ]
+}
