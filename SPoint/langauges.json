@@ -1,0 +1,876 @@
+{
+   "@page": "1",
+   "@pages": "1",
+   "@per_page": "50",
+   "@total": "31",
+   "country": [
+      {
+         "@id": "AFG",
+         "iso2Code": "AF",
+         "name": "Afghanistan",
+         "region": {
+            "@id": "SAS",
+            "@iso2code": "8S",
+            "#text": "South Asia"
+         },
+         "adminregion": {
+            "@id": "SAS",
+            "@iso2code": "8S",
+            "#text": "South Asia"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Kabul",
+         "longitude": "69.1761",
+         "latitude": "34.5228"
+      },
+      {
+         "@id": "BDI",
+         "iso2Code": "BI",
+         "name": "Burundi",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Bujumbura",
+         "longitude": "29.3639",
+         "latitude": "-3.3784"
+      },
+      {
+         "@id": "BEN",
+         "iso2Code": "BJ",
+         "name": "Benin",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Porto-Novo",
+         "longitude": "2.6323",
+         "latitude": "6.4779"
+      },
+      {
+         "@id": "BFA",
+         "iso2Code": "BF",
+         "name": "Burkina Faso",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Ouagadougou",
+         "longitude": "-1.53395",
+         "latitude": "12.3605"
+      },
+      {
+         "@id": "CAF",
+         "iso2Code": "CF",
+         "name": "Central African Republic",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Bangui",
+         "longitude": "21.6407",
+         "latitude": "5.63056"
+      },
+      {
+         "@id": "COD",
+         "iso2Code": "CD",
+         "name": "Congo, Dem. Rep.",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Kinshasa",
+         "longitude": "15.3222",
+         "latitude": "-4.325"
+      },
+      {
+         "@id": "ERI",
+         "iso2Code": "ER",
+         "name": "Eritrea",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Asmara",
+         "longitude": "38.9183",
+         "latitude": "15.3315"
+      },
+      {
+         "@id": "ETH",
+         "iso2Code": "ET",
+         "name": "Ethiopia",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Addis Ababa",
+         "longitude": "38.7468",
+         "latitude": "9.02274"
+      },
+      {
+         "@id": "GIN",
+         "iso2Code": "GN",
+         "name": "Guinea",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Conakry",
+         "longitude": "-13.7",
+         "latitude": "9.51667"
+      },
+      {
+         "@id": "GMB",
+         "iso2Code": "GM",
+         "name": "Gambia, The",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Banjul",
+         "longitude": "-16.5885",
+         "latitude": "13.4495"
+      },
+      {
+         "@id": "GNB",
+         "iso2Code": "GW",
+         "name": "Guinea-Bissau",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Bissau",
+         "longitude": "-15.1804",
+         "latitude": "11.8037"
+      },
+      {
+         "@id": "HTI",
+         "iso2Code": "HT",
+         "name": "Haiti",
+         "region": {
+            "@id": "LCN",
+            "@iso2code": "ZJ",
+            "#text": "Latin America & Caribbean"
+         },
+         "adminregion": {
+            "@id": "LAC",
+            "@iso2code": "XJ",
+            "#text": "Latin America & Caribbean (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Port-au-Prince",
+         "longitude": "-72.3288",
+         "latitude": "18.5392"
+      },
+      {
+         "@id": "LBR",
+         "iso2Code": "LR",
+         "name": "Liberia",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Monrovia",
+         "longitude": "-10.7957",
+         "latitude": "6.30039"
+      },
+      {
+         "@id": "MDG",
+         "iso2Code": "MG",
+         "name": "Madagascar",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Antananarivo",
+         "longitude": "45.7167",
+         "latitude": "-20.4667"
+      },
+      {
+         "@id": "MLI",
+         "iso2Code": "ML",
+         "name": "Mali",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Bamako",
+         "longitude": "-7.50034",
+         "latitude": "13.5667"
+      },
+      {
+         "@id": "MOZ",
+         "iso2Code": "MZ",
+         "name": "Mozambique",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Maputo",
+         "longitude": "32.5713",
+         "latitude": "-25.9664"
+      },
+      {
+         "@id": "MWI",
+         "iso2Code": "MW",
+         "name": "Malawi",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Lilongwe",
+         "longitude": "33.7703",
+         "latitude": "-13.9899"
+      },
+      {
+         "@id": "NER",
+         "iso2Code": "NE",
+         "name": "Niger",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Niamey",
+         "longitude": "2.1073",
+         "latitude": "13.514"
+      },
+      {
+         "@id": "NPL",
+         "iso2Code": "NP",
+         "name": "Nepal",
+         "region": {
+            "@id": "SAS",
+            "@iso2code": "8S",
+            "#text": "South Asia"
+         },
+         "adminregion": {
+            "@id": "SAS",
+            "@iso2code": "8S",
+            "#text": "South Asia"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Kathmandu",
+         "longitude": "85.3157",
+         "latitude": "27.6939"
+      },
+      {
+         "@id": "PRK",
+         "iso2Code": "KP",
+         "name": "Korea, Dem. People’s Rep.",
+         "region": {
+            "@id": "EAS",
+            "@iso2code": "Z4",
+            "#text": "East Asia & Pacific"
+         },
+         "adminregion": {
+            "@id": "EAP",
+            "@iso2code": "4E",
+            "#text": "East Asia & Pacific (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "LNX",
+            "@iso2code": "XX",
+            "#text": "Not classified"
+         },
+         "capitalCity": "Pyongyang",
+         "longitude": "125.754",
+         "latitude": "39.0319"
+      },
+      {
+         "@id": "RWA",
+         "iso2Code": "RW",
+         "name": "Rwanda",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Kigali",
+         "longitude": "30.0587",
+         "latitude": "-1.95325"
+      },
+      {
+         "@id": "SLE",
+         "iso2Code": "SL",
+         "name": "Sierra Leone",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Freetown",
+         "longitude": "-13.2134",
+         "latitude": "8.4821"
+      },
+      {
+         "@id": "SOM",
+         "iso2Code": "SO",
+         "name": "Somalia",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Mogadishu",
+         "longitude": "45.3254",
+         "latitude": "2.07515"
+      },
+      {
+         "@id": "SSD",
+         "iso2Code": "SS",
+         "name": "South Sudan",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Juba",
+         "longitude": "31.6",
+         "latitude": "4.85"
+      },
+      {
+         "@id": "SYR",
+         "iso2Code": "SY",
+         "name": "Syrian Arab Republic",
+         "region": {
+            "@id": "MEA",
+            "@iso2code": "ZQ",
+            "#text": "Middle East & North Africa"
+         },
+         "adminregion": {
+            "@id": "MNA",
+            "@iso2code": "XQ",
+            "#text": "Middle East & North Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Damascus",
+         "longitude": "36.3119",
+         "latitude": "33.5146"
+      },
+      {
+         "@id": "TCD",
+         "iso2Code": "TD",
+         "name": "Chad",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "N'Djamena",
+         "longitude": "15.0445",
+         "latitude": "12.1048"
+      },
+      {
+         "@id": "TGO",
+         "iso2Code": "TG",
+         "name": "Togo",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Lome",
+         "longitude": "1.2255",
+         "latitude": "6.1228"
+      },
+      {
+         "@id": "TJK",
+         "iso2Code": "TJ",
+         "name": "Tajikistan",
+         "region": {
+            "@id": "ECS",
+            "@iso2code": "Z7",
+            "#text": "Europe & Central Asia"
+         },
+         "adminregion": {
+            "@id": "ECA",
+            "@iso2code": "7E",
+            "#text": "Europe & Central Asia (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Dushanbe",
+         "longitude": "68.7864",
+         "latitude": "38.5878"
+      },
+      {
+         "@id": "TZA",
+         "iso2Code": "TZ",
+         "name": "Tanzania",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Dodoma",
+         "longitude": "35.7382",
+         "latitude": "-6.17486"
+      },
+      {
+         "@id": "UGA",
+         "iso2Code": "UG",
+         "name": "Uganda",
+         "region": {
+            "@id": "SSF",
+            "@iso2code": "ZG",
+            "#text": "Sub-Saharan Africa"
+         },
+         "adminregion": {
+            "@id": "SSA",
+            "@iso2code": "ZF",
+            "#text": "Sub-Saharan Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Kampala",
+         "longitude": "32.5729",
+         "latitude": "0.314269"
+      },
+      {
+         "@id": "YEM",
+         "iso2Code": "YE",
+         "name": "Yemen, Rep.",
+         "region": {
+            "@id": "MEA",
+            "@iso2code": "ZQ",
+            "#text": "Middle East & North Africa"
+         },
+         "adminregion": {
+            "@id": "MNA",
+            "@iso2code": "XQ",
+            "#text": "Middle East & North Africa (excluding high income)"
+         },
+         "incomeLevel": {
+            "@id": "LIC",
+            "@iso2code": "XM",
+            "#text": "Low income"
+         },
+         "lendingType": {
+            "@id": "IDX",
+            "@iso2code": "XI",
+            "#text": "IDA"
+         },
+         "capitalCity": "Sana'a",
+         "longitude": "44.2075",
+         "latitude": "15.352"
+      }
+   ]
+}
